@@ -60,6 +60,7 @@
 
 .delivery{
     display: flex;
+    margin-bottom: 44px;
     justify-content: space-around;
     
 }
@@ -128,16 +129,192 @@
 #span-step-four{
     margin-right: 8px;
 }
+
 .marketing{
-    width: 100%;
+    width: 80%;
+    grid-template-columns: 2fr 2fr;
+    background-color: #FAFAFA;
     height: auto;
-    display: flex;
+    gap: 100px;
+    padding: 41px;
+    display: grid;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin: 0 auto;
+}
+.userFeedback{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 46px;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 22px;
+}
+.userInfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.verif{
+    display: flex;
+    gap: 10px;
+}
+.verif p {
+    color: #5bb59a;
+}
+.marketingrapf1{
+    width: 100%;
+    margin-bottom: 24px;
+}
+.grapf1{
+    width: 100%;
+}
+.grapf2{
+    width: 100%;
+    height: 100vh;
+}
+.pTextOne{
+    color: #2C7EF8;
 }
 .marketingMobile{
     display: none;
+}
+.containerCel{
+    display: grid;
+    gap: 16px;
+    line-height: 1.5;
+    grid-template-columns: 1fr;
+}
+/* .starsInfo{
+    position: absolute;
+    left: 1154px;
+} */
+#stock{
+    margin-right: 20px;
+}
+.textes{
+    display: flex;
+    line-height: 2;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.divTextOne,
+.divTextTwo,
+.divTextThree{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.divTextOne span{
+    font-weight: bold;
+}
+.divTextTwo span{
+    font-weight: bold;
+}
+.divTextThree span{
+    font-weight: bold;
+}
+.div-percent{
+    width: 30px;
+    background: #2C7EF8;
+    border-radius: 50%;
+    height: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.save{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: #EDF3FD;
+    padding: 10px;
+    border-radius: 15px;
+}
+.save span{
+    color: #2C7EF8;
+}
+.grapf2{
+    height: 100vh;
+}
+.grapf2Mobile{
+    display: none;
+}
+.button {
+    width: 100%;
+    padding: 19px;
+    border: none;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background: #59AE43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hTextOne{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 100;
+}
+.buttonImg{
+    margin-left: 10px;
+}
+.infoCel{
+    width:100%;
+}
+.starsInfo{
+    width: 31%;
+}
+.infoText{
+    width: 25rem;
+}
+.real-price{
+    font-size: 41px;
+    color: #2C7EF8;
+}
+.before-price{
+    color: #969696;
+    text-decoration: line-through;
+}
+.infoCel-span{
+    display: flex;
+    justify-content: space-between;
+}
+.imgCel{
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 19px;
+}
+.div-inform{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.stock{
+    display: flex;
+    flex-direction: column;
+}
+.div-radio{
+    display:flex;
+}
+.stock p{
+    color: #37465A;
+}
+.price{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.photoCel{
+    background: #2C7EF8;
+    border-radius: 20px;
 }
 .btn-left-arrow, .btn-right-arrow{
     background: transparent;
@@ -163,6 +340,70 @@
     align-items: center;
     gap: 16px;
 }
+.freteShipping{
+    border: 1px solid #CFCFCF;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.shipping{
+    border-right: 1px solid #CFCFCF;
+}
+.secureEnc{
+    border-right: 1px solid #CFCFCF;
+}
+.shipping p{
+    margin-right: 27px;
+}
+.secureEnc p{
+    margin-right: 27px;
+}
+.secureEnc{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.textRed{
+    width: 100%;
+    color: #F82C2C;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+
+.div-satisfaction{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.div-satisfaction span{
+    font-weight: bold;
+}
+.textOne{
+    margin-bottom: 32px;
+}
+.containerCel{
+    margin-bottom: 32px;
+}
+.textes{
+    margin-bottom: 32px;
+}
+.saveContainer{
+    margin-bottom: 32px;
+}
+.div-button{
+    margin-bottom: 32px;
+}
+.freteShipping{
+    margin-bottom: 32px;
+}
 
 @media only screen and ((min-width: 200px) and (max-width: 767px)){
     .logo {
@@ -182,7 +423,8 @@
         display: none;
     }
     #delivery-one, #delivery-two, #delivery-three, #delivery-four {
-        display: none;
+        display: flex;
+        flex-direction: column;
     }
     .marketing {
         margin-top: 0px;
@@ -203,12 +445,89 @@
         flex-direction: column;
         align-items: center;
         white-space: nowrap;
+        position: relative;
+        top: 500px;
         font-size: 10px;
         gap: 16px;
         padding: 70px;
     }
     #main-header{
         display: none;
+    }
+    .grapf1 {
+        display: none;
+    }
+    .grapf2Mobile {
+        padding: 10px;
+        display: block;
+    }
+    .starsInfo {
+        right: 210px;
+        left: 0;
+    }
+    .marketing{
+        width: 100%;
+        display: none;
+    }
+    .hTextOne {
+        font-size: 1.6em;
+    }
+    .containerCel {
+        width: 100%;
+        max-width: 352px;
+    }
+    .infoCel-span {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .textOne {
+        /* margin-left: 94px; */
+        padding: 10px;
+    }
+    .imgCel{
+        width: 30%;
+        flex-direction: column;
+    }
+    .div-inform {
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 95%;
+    }
+    .infoText {
+        width: 16rem;
+    }
+    .freteShipping {
+        height: 7vh;
+        flex-direction: column;
+    }
+    .button {
+        padding: 14px;
+        font-size: 0.8em;
+    }
+    .textes {
+        font-size: 14px;
+    }
+    .freteShipping {
+        height: 13vh;
+        gap: 10px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        white-space: nowrap;
+        font-size: 9px;
+    }
+    .shipping {
+        border-right: 1px solid #CFCFCF;
+    }
+    .secureEnc {
+        border-right: none;
+    }
+    .delivery {
+        display: flex;
+        margin-bottom: 44px;
+        justify-content: space-around;
+        flex-direction: row;
     }
 }
 
